@@ -1,0 +1,49 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.nav-link:hover {
+  color: rgb(255, 0, 157) !important;
+  transition: all 0.9s ease-in-out;
+}
+.photo-user {
+  border-radius: 50%;
+  box-shadow: -2px 0px 5px rgb(255 255 255);
+  transition: all 0.9s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+}
+.photo-user:hover {
+  box-shadow: -2px 0px 5px rgb(255, 0, 157);
+  transition: all 0.9s ease-in-out;
+  opacity: 0.5;
+}
+.post-title {
+  text-align: center;
+  padding: 50px 0px 30px;
+  font-weight: bold;
+}
+.carousel-item .heightImg {
+  height: 500px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.description {
+  padding: 50px 0px 30px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+}
+.main {
+  padding: 20px 0;
+  height: calc(100% - 66px - 72px - 40px);
+}
+.cats {
+  grid-gap: clamp(1rem, 2vw, 24px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card{
+  min-height: 580px;
+}
